@@ -3,8 +3,8 @@ import time
 import subprocess
 import random
 
-date2 = 150
-date1 = 121
+date2 = 160
+date1 = 135
 
 numbers = 3
 # while True:
@@ -16,7 +16,7 @@ for i in range(date1, date2):
 	print("*********************************************", i)
 	run_or = random.randint(1, 6)
 	if run_or != 1:
-		numbers = random.randint(2, 8)
+		numbers = random.randint(15, 30)
 		for j in range(1, numbers):
 
 			file_object = open('data.txt', 'a')
