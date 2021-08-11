@@ -3,8 +3,8 @@ import time
 import subprocess
 import random
 
-date2 = 120
-date1 = 90
+date2 = 150
+date1 = 121
 
 numbers = 3
 # while True:
