@@ -8,7 +8,7 @@ b = 'git add .'
 d = 'git push origin main'
 c = 'git commit -m "fixed"'
 
-numbers = random.randint(2, 8)
+numbers = random.randint(5, 30)
 for j in range(1, numbers):
 
 	file_object = open('data.txt', 'a')
