@@ -7,13 +7,14 @@ a = 'git status'
 b = 'git add .'
 d = 'git push origin main'
 c = 'git commit -m "fixed"'
+
 numbers = random.randint(2, 8)
 for j in range(1, numbers):
 
 	file_object = open('data.txt', 'a')
 	file_object.write(str(i) + str(j))
 	file_object.close()
-	
+
 	e= a + ' && ' + b + ' && ' + c + ' && ' + d 
 	subprocess.call(e, shell = True)
 	
