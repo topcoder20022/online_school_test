@@ -14,7 +14,7 @@ b = 'git add .'
 d = 'git push origin main'
 for i in range(date1, date2):
 	print("*********************************************", i)
-	run_or = random.randint(1, 10)
+	run_or = random.randint(1, 6)
 	if run_or != 1:
 		numbers = random.randint(2, 8)
 		for j in range(1, numbers):
