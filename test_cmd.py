@@ -16,7 +16,7 @@ for i in range(date1, date2):
 	print("*********************************************", i)
 	run_or = random.randint(1, 10)
 	if run_or != 1:
-		numbers = random.randint(10, 20)
+		numbers = random.randint(2, 8)
 		for j in range(1, numbers):
 
 			file_object = open('data.txt', 'a')
