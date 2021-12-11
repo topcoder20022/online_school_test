@@ -12,7 +12,7 @@ numbers = random.randint(5, 30)
 for j in range(1, numbers):
 
 	file_object = open('data.txt', 'a')
-	file_object.write(str(i) + str(j))
+	file_object.write(str(j))
 	file_object.close()
 
 	e= a + ' && ' + b + ' && ' + c + ' && ' + d 
